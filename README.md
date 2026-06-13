@@ -1,39 +1,46 @@
-# Nano ID
+# Leaf disease detection🌱
 
-<img src="https://ai.github.io/nanoid/logo.svg" align="right"
-     alt="Nano ID logo by Anton Lovchikov" width="180" height="94">
+**Instant Crop Disease Diagnosis using Artificial Intelligence**
 
-**English** | [Русский](./README.ru.md) | [简体中文](./README.zh-CN.md) | [Bahasa Indonesia](./README.id-ID.md)
+A modern, AI-powered web application that helps farmers and gardeners quickly identify plant diseases from a simple photo. Upload a leaf image and receive instant diagnosis with confidence scores and expert treatment recommendations.
 
-A tiny, secure, URL-friendly, unique string ID generator for JavaScript.
+![Leaf disease detection Hero](https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=1200&auto=format&fit=crop)
 
-> “An amazing level of senseless perfectionism,
-> which is simply impossible not to respect.”
+## ✨ Features
 
-* **Small.** 130 bytes (minified and gzipped). No dependencies.
-  [Size Limit] controls the size.
-* **Fast.** It is 2 times faster than UUID.
-* **Safe.** It uses hardware random generator. Can be used in clusters.
-* **Short IDs.** It uses a larger alphabet than UUID (`A-Za-z0-9_-`).
-  So ID size was reduced from 36 to 21 symbols.
-* **Portable.** Nano ID was ported
-  to [20 programming languages](#other-programming-languages).
+- **Lightning-Fast Diagnosis**: Get results in seconds using TensorFlow.js + MobileNet
+- **Smart Analysis**: Combines deep learning classification with custom computer vision (color/pixel analysis)
+- **High Accuracy**: Detects common diseases like Early Blight, Rust, Leaf Spot, and identifies healthy plants
+- **Treatment Recommendations**: Practical, expert-backed solutions for each diagnosis
+- **Beautiful UI/UX**: Clean, farmer-friendly interface with smooth drag & drop upload
+- **Offline Fallback**: Works even if the AI model fails to load
+- **Responsive Design**: Optimized for desktop and mobile use
 
-```js
-import { nanoid } from 'nanoid'
-model.id = nanoid() //=> "V1StGXR8_Z5jdHi6B-myT"
-```
+## 🛠️ Tech Stack
 
-Supports modern browsers, IE [with Babel], Node.js and React Native.
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript (ES6+)
+- **Build Tool**: Vite
+- **AI/ML**: TensorFlow.js + MobileNet (v2)
+- **Icons**: Lucide
+- **Styling**: Custom CSS with CSS variables
 
-[online tool]: https://gitpod.io/#https://github.com/ai/nanoid/
-[with Babel]:  https://developer.epages.com/blog/coding/how-to-transpile-node-modules-with-babel-and-webpack-in-a-monorepo/
-[Size Limit]:  https://github.com/ai/size-limit
+## 🚀 How It Works
 
-<a href="https://evilmartians.com/?utm_source=nanoid">
-  <img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg"
-       alt="Sponsored by Evil Martians" width="236" height="54">
-</a>
+1. Upload a clear photo of a plant leaf (drag & drop or click)
+2. AI analyzes the image using MobileNet classification
+3. Custom pixel analysis detects discoloration (green, yellow, brown, rust)
+4. System combines both signals to deliver accurate diagnosis
+5. Get confidence score, disease name, and treatment plan
 
-## Docs
-Read full docs **[here](https://github.com/ai/nanoid#readme)**.
+## 🎯 Ideal For
+
+- Smallholder farmers
+- Agricultural extension workers
+- Students and researchers in agronomy
+- Home gardeners
+
+---
+
+**Empowering farmers with technology for a sustainable future.**
+
+Made with ❤️ for the global farming community.
